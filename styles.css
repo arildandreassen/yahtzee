@@ -1,0 +1,52 @@
+body {
+    padding:2% 15%;
+}
+
+.gameboard {
+    background-color: green;
+    padding:5% 5%
+}
+
+/* Scorecard Table */
+.scorecard {
+    background-color: white;
+    padding:5% 5%
+}
+
+td {
+    border: 1px solid black;
+    height: 20px;
+    width: 120px;
+    
+}
+
+.result {
+    width: 60px;
+    text-align: right;
+}
+
+.result:hover {
+    background-color: black;
+
+}
+
+/* Roll Area */
+
+.roll-area {
+    background-color: teal;
+    outline-style:none;
+    -webkit-user-select: none; /* Chrome/Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+}
+
+
+.dice {
+    color: white;
+    padding: 5px;
+
+}
+
+.dice.hold {
+    color: black;
+}
